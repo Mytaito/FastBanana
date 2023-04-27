@@ -1,0 +1,28 @@
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: orange;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place an order</title>
+    <Style>
+        body{
+            background: #ddd;
+        }
+
+        .navbar {
+    background: lightcoral;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+
+}
+
+.navbar {
+    background: lightcoral;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    background: #ea6767;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.table {
+        border: 2;
+    }
+
+    .table td:nth-child(2) {
+    background: #fffeee;
+
+}
+    </Style>
+    <link rel="stylesheet" href="lists.css">
+    <link rel="stylesheet" href="borders.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="order.html">Place an order</a></li>
+            <li><a href="index.html">Main page</a></li>
+        </ul>
+
+    </nav>
+
+
+    <form action="/" class="form">
+
+        <div class="form-row">
+        <Div class="form-group">
+             <label for="text">Ваше имя</label>
+             <input type="text" id="text" placeholder="Ввeдите имя">
+        </Div>
+    
+        <Div class="form-group">
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="Ввeдите email"> 
+        </Div>
+        </div>
+
+        <Div>
+            <label for="password">Пароль</label>
+            <input type="password" id="password"> 
+        </Div>
+
+        <Div>
+            <label for="date">Дата</label>
+            <input type="date" id="date"> 
+        </Div>
+
+        <Div>
+            <label for="sex">Brand</label>
+            <select id="sex" placeholder="brand"> 
+                <option value="Porsche">2018 Porsche 911 GT2 RS Weissach</option>
+                <option value="Ferrari" selected>Ferrari-F12-Novitec-N-Largo</option>
+                <option value="Lamborghini">2021 Lamborghini Urus MANSORY</option>
+                <option value="McLaren">2019 McLaren SENNA</option>
+                <option value="Bugatti" selected>2014 Bugatti Veyron</option>
+            </select>
+        </Div>
+
+        <Div class="form-group">
+            <label for="message">Ваше сообщение</label>
+            <br>
+            <textarea id="message" cols="25" rows="15" placeholder="Ввeдите сообщение" > </textarea>
+        </Div>
+    
+        <button type="submit">Отправить форму</button>
+     </form>
+</body>
+</html>
